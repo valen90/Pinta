@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Formas">
+        <menu>
+            <item
+                android:id="@+id/nav_cuadrado"
+                android:icon="@android:color/black"
+                android:title="Cuadrado" />
+            <item
+                android:id="@+id/nav_circulo"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="Circulo" />
+            <item
+                android:id="@+id/nav_trazo"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Linea" />
+
+        </menu>
+    </item>
+
+    <item android:title="Trazo">
+        <menu>
+            <item
+                android:id="@+id/nav_aumentar"
+                android:icon="@android:drawable/arrow_up_float"
+                android:title="Aumentar grosor" />
+            <item
+                android:id="@+id/nav_disminuir"
+                android:icon="@android:drawable/arrow_down_float"
+                android:title="Disminuir grosor" />
+            <item
+                android:id="@+id/nav_relleno"
+                android:icon="@android:color/black"
+                android:title="Rellenar" />
+            <item
+                android:id="@+id/nav_vacio"
+                android:icon="@android:drawable/alert_light_frame"
+                android:title="Vaciar" />
+        </menu>
+    </item>
+    <item android:title="Color">
+        <menu>
+            <item
+                android:id="@+id/nav_negro"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="Negro" />
+            <item
+                android:id="@+id/nav_rojo"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="Rojo" />
+            <item
+                android:id="@+id/nav_azul"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="Azul" />
+            <item
+                android:id="@+id/nav_verde"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="Verde" />
+            <item
+                android:id="@+id/nav_gris"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="Gris" />
+            <item
+                android:id="@+id/nav_magenta"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="Magenta" />
+            <item
+                android:id="@+id/nav_cian"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="Cian" />
+            <item
+                android:id="@+id/nav_amarillo"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="Amarillo" />
+        </menu>
+    </item>
+
+
+
+</menu>
